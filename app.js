@@ -192,7 +192,7 @@ from an array of inventor objects
 let inventorNamedAda = {};
 
 // Complete the exercise in the space below:
-inventorNamedAda = inventors.find((entry) => {return entry.first === 'Ada'})
+inventorNamedAda = inventors.find((entry) => entry.first === 'Ada')
 // Check your work:
 console.log('Exercise 4 my result: ', inventorNamedAda);
 console.log('Exercise 4 correct result: ', {
